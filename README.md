@@ -32,9 +32,9 @@ Características
 
 --
 
-path conditions (/streaming, /api, /videos)
-host conditions (example.com, teste.example.com)
-http header conditions ("Values": ["CUSTOM-METHOD"],"Values": ["*Chrome*", "*Safari*"])
+* path conditions (/streaming, /api, /videos)
+* host conditions (example.com, teste.example.com)
+* http header conditions ("Values": ["CUSTOM-METHOD"],"Values": ["*Chrome*", "*Safari*"])
 
 --
 
@@ -102,7 +102,9 @@ Preço:
 apis http:
 
 Número de solicitações (por mês)	Preço (por milhão)
+
 Primeiros 300 milhões	1,00 USD
+
 Mais de 300 milhões	0,90 USD
 
 --
@@ -110,9 +112,13 @@ Mais de 300 milhões	0,90 USD
 apis rest:
 
 Número de solicitações (por mês)	Preço (por milhão)
+
 Primeiros 333 milhões	3,50 USD
+
 Próximos 667 milhões	2,80 USD
+
 Próximos 19 bilhões	2,38 USD
+
 Mais de 20 bilhões	1,51 USD
 
 --
@@ -120,7 +126,9 @@ Mais de 20 bilhões	1,51 USD
 apis websocket:
 
 Número de solicitações (por mês)	Preço (por milhão)
+
 Primeiro 1 bilhão	1,24 USD
+
 Mais de 1 bilhão	1,04 USD
 
 --
